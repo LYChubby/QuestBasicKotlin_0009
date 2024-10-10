@@ -13,5 +13,8 @@ fun ContohList() {
 
     shape.remove("Triangle")
     println(shape)
+
+    shape[0] = "Oval"
+    println(shape)
 }
 
