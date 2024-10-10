@@ -56,4 +56,7 @@ fun ContohMap() {
 
     shape["Square"] = 5
     println(shape)
+
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
 }
