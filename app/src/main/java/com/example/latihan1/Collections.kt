@@ -18,3 +18,11 @@ fun ContohList() {
     println(shape)
 }
 
+fun ContohSet() {
+    println()
+    println("==== SET ====")
+
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
+
