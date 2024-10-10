@@ -7,5 +7,8 @@ fun ContohList() {
 
     val shape: MutableList<string> = mutableListOf("Circle", "Square", "Triangle")
     println(shape)
+
+    shape.add("Circle")
+    println(shape)
 }
 
