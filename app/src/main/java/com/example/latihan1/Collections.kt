@@ -53,4 +53,7 @@ fun ContohMap() {
 
     shape.remove("Circle")
     println(shape)
+
+    shape["Square"] = 5
+    println(shape)
 }
